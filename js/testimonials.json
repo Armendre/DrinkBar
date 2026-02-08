@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Alex M.",
+    "role": "Customer",
+    "image": "img/ceo.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem corporis deleniti dolores expedita explicabo harum illo inventore ipsum iste, labore laboriosam magni nam nihil nisi .nam nihil nisi ."
+  },
+  {
+    "name": "Sara K.",
+    "role": "Customer",
+    "image": "img/ceo1.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem corporis deleniti dolores expedita explicabo harum illo inventore ipsum iste, labore laboriosam magni nam nihil nisi .nam nihil nisi ."
+  },
+  {
+    "name": "Jordan P.",
+    "role": "Customer",
+    "image": "img/ceo.png",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem corporis deleniti dolores expedita explicabo harum illo inventore ipsum iste, labore laboriosam magni nam nihil nisi .nam nihil nisi ."
+  },
+  {
+    "name": "Mina L.",
+    "role": "Client",
+    "image": "img/ceo1.png",
+    "text": "Client1 says: Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem corporis deleniti dolores expedita explicabo harum illo inventore ipsum iste, labore laboriosam magni nam nihil nisi .nam nihil nisi ."
+  },
+  {
+    "name": "Chris T.",
+    "role": "Client2",
+    "image": "img/ceo.png",
+    "text": "Client2 says: Lorem ipsum dolor sit amet, consectetur adipisicing elit. A autem corporis deleniti dolores expedita explicabo harum illo inventore ipsum iste, labore laboriosam magni nam nihil nisi .nam nihil nisi "
+  }
+]

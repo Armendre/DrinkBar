@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DrinkBar - Home</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Handlee&family=Inspiration&family=Inter:wght@100..900&family=Poppins:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/hero.js" defer></script>
+    <script src="js/subscribe.js" defer></script>
+    <script src="js/statisticIncrease.js" defer></script>
+    <script src="js/contactForm.js" defer></script>
+    <script src="js/testimonials.js" defer></script>
+  </head>
+  <body>
+    <header class="bg-primary text-white">
+      <nav class="navbar">
+       <div class="navbar-logo">
+  <a href="index.html" class="brand-text">DrinkBar</a>
+</div>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="index.html" class="text-white active">Home</a></li>
+          <li>
+            <a href="menu.html" class="text-white"
+              >Menu
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span id="cart-badge" class="badge">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="hero-content-tittle">
+          Order your <br /><span>favorite Drinks</span>
+        </h1>
+        <p class="hero-content-slogan text-gray">
+          Your perfect drink companion! Explore soft drinks, energy drinks, and
+          coffee & tea — ready to order in seconds.
+          <span class="text-black"
+            ><br />Cold drinks. Hot coffee. Simple experience.</span
+          >
+        </p>
+
+        <div class="order-info">
+          <h3 class="order-info-total">
+            Total order: <span class="price">$0.00</span>
+          </h3>
+
+          <div class="order-info-buttons">
+            <div class="quantity-selector">
+              <button id="decrement">-</button>
+              <span class="quantity">1</span>
+              <button id="increment">+</button>
+            </div>
+
+            <button class="add-to-cart">
+              <span class="cart-icon"
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></span>
+              Add to cart
+            </button>
+          </div>
+        </div>
+
+        <div class="food-carousel">
+          <button class="carousel-arrow left-arrow">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div class="food-items">
+            <!-- Filled by hero.js -->
+          </div>
+          <button class="carousel-arrow right-arrow">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <!-- Filled by hero.js -->
+        <img class="hero-main-image" src="img/placeholder.png" alt="Drink" />
+        <div class="food-details">
+          <div class="food-title">
+            <p>Drink</p>
+            <p><i class="fa-solid fa-star"></i>4.7</p>
+          </div>
+          <p class="prepare-time"><i class="fa-regular fa-clock"></i>1 min</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="order-steps">
+      <h2 class="text-primary primary-title">Order with Ease.</h2>
+      <div class="order-steps-container">
+        <div class="order-step">
+          <img class="order-step-icon" src="img/cola.svg" alt="Choose" />
+          <h3 class="order-step-title">Choose</h3>
+          <p class="order-step-description">Pick your favorite drink.</p>
+        </div>
+        <div class="order-step">
+          <img class="order-step-icon" src="img/energy.svg" alt="Order" />
+          <h3 class="order-step-title">Order</h3>
+          <p class="order-step-description">Add items to cart in one click.</p>
+        </div>
+        <div class="order-step">
+          <img class="order-step-icon" src="img/coffee.svg" alt="Pay" />
+          <h3 class="order-step-title">Pay</h3>
+          <p class="order-step-description">Fast and smooth checkout.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="cta-content text-white">
+        <h2 class="primary-title">Original taste</h2>
+        <p class="cta-description">
+          Feel excited to taste our drinks and order online now!
+        </p>
+        <a href="menu.html" class="cta-button">Order online</a>
+      </div>
+    </section>
+
+    <section class="statistics-section">
+      <div class="statistics-header">
+        <h1 class="primary-title text-primary">
+          We like numbers. <br />What about you?
+        </h1>
+      </div>
+
+      <div class="statistics-container">
+        <div class="stat-item">
+          <span class="stat-value" data-target="2000">0</span>
+          <p class="stat-description">Happy customers</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" data-target="120">0</span>
+          <p class="stat-description">Drinks on the menu</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" data-target="500">0</span>
+          <p class="stat-description">Orders</p>
+        </div>
+        <div class="stat-item">
+          <span class="stat-value" data-target="1000">0</span>
+          <p class="stat-description">Daily visitors</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section">
+      <div class="about-content text-white">
+        <h2 class="primary-title">About Us</h2>
+        <p class="about-description">
+          Welcome to DrinkBar — your online destination for soft drinks, energy
+          drinks, and coffee & tea. We focus on quality, speed, and a clean
+          ordering experience.
+        </p>
+        <p class="about-description">
+          Browse the menu, add items to your cart, and check out in seconds.
+          Cold drinks or hot coffee your choice.
+        </p>
+      </div>
+    </section>
+
+    <section class="subscribe-section">
+      <h2 class="primary-title text-white">Never miss an offer!</h2>
+      <form class="subscribe-form" id="subscribeForm">
+        <label for="checkbox" class="subscribe-checkbox">
+          Subscribe to our Newsletter
+          <input type="checkbox" name="checkbox" id="checkbox" checked />
+        </label>
+        <div class="subscribe-form-inline">
+          <input
+            class="subscribe-input"
+            type="text"
+            id="subscriberEmail"
+            placeholder="Your Email..."
+            required
+          />
+          <button type="submit" class="subscribe-button">Subscribe</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="email-section">
+      <h2 class="text-primary primary-title">Contact Us</h2>
+      <div class="email-content">
+        <div class="email-image">
+          <img src="img/ContactUsbacground.png" alt="Email Us" />
+        </div>
+
+        <form class="email-form">
+          <input type="text" id="name" name="name" placeholder="Name..." />
+          <input type="text" id="email" name="email" placeholder="Email..." />
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            placeholder="Subject..."
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Message..."
+            rows="5"
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <h2 class="primary-title text-primary">What Our Customers Say</h2>
+
+      <div class="carousel-indicators"></div>
+
+      <div class="testimonial-carousel">
+        <button class="carousel-arrow left-arrow-testimonial">
+          <i class="fa-solid fa-angle-left"></i>
+        </button>
+
+        <div class="testimonial-container">
+          <div class="testimonial-card-first">
+            <div class="testimonial-image">
+              <img src="img/ceo.png" alt="Client" />
+            </div>
+            <h3 class="testimonial-name">Name</h3>
+            <p class="testimonial-role">Role</p>
+            <p class="testimonial-text">Text</p>
+          </div>
+
+          <div class="testimonial-card-middle">
+            <div class="testimonial-image">
+              <img src="img/ceo.png" alt="Client" />
+            </div>
+            <h3 class="testimonial-name">Name</h3>
+            <p class="testimonial-role">Role</p>
+            <p class="testimonial-text">Text</p>
+          </div>
+
+          <div class="testimonial-card-third">
+            <div class="testimonial-image">
+              <img src="img/placeholder.png" alt="Client" />
+            </div>
+            <h3 class="testimonial-name">Name</h3>
+            <p class="testimonial-role">Role</p>
+            <p class="testimonial-text">Text</p>
+          </div>
+        </div>
+
+        <button class="carousel-arrow right-arrow-testimonial">
+          <i class="fa-solid fa-angle-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-top">
+        <div class="footer-left">
+          <div class="footer-logo"><h1>DrinkBar</h1></div>
+          <div class="footer-info">
+            <h2>
+              Order drinks online <br />
+              with DrinkBar
+            </h2>
+            <p class="text-gray">DrinkBar, 2026.</p>
+          </div>
+        </div>
+        <div class="footer-button">
+          <a href="menu.html" class="order-button">ORDER HERE</a>
+        </div>
+      </div>
+
+      <hr class="footer-divider" />
+
+      <div class="footer-bottom">
+        <p>© 2026 DrinkBar</p>
+        <div class="footer-links">
+          <a href="#">Terms of Service</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+:root {
+  --primary-color: #f08c2e;
+
+  --light-color: #0f0f10;
+  --gray-color: #b5b5b5;
+  --title: 63px;
+
+  --handlee-font: "Handlee", cursive;
+  --poppins-font: "Poppins", sans-serif;
+  --inspiration-font: "Inspiration", cursive;
+  --irish-font: "Irish Grover", system-ui;
+}

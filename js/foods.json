@@ -1,0 +1,162 @@
+{
+  "categories": {
+    "Soft Drinks": [
+      {
+        "name": "Coca-Cola",
+        "price": 2.5,
+        "image": "img/coca-cola.png",
+        "rating": 4.8,
+        "preparation": "1 min",
+        "description": "Chilled Coca-Cola."
+      },
+      {
+        "name": "Coca-Cola Zero",
+        "price": 2.5,
+        "image": "img/Coca-ColaZero.png",
+        "rating": 4.7,
+        "preparation": "1 min",
+        "description": "Sugar-free and chilled."
+      },
+      {
+        "name": "Sprite",
+        "price": 2.5,
+        "image": "img/Sprite.png",
+        "rating": 4.7,
+        "preparation": "1 min",
+        "description": "Crisp lemon-lime soda."
+      },
+      {
+        "name": "Fanta Orange",
+        "price": 2.5,
+        "image": "img/FantaOrange.png",
+        "rating": 4.6,
+        "preparation": "1 min",
+        "description": "Refreshing orange soda."
+      },
+      {
+        "name": "Mezzo Mix",
+        "price": 2.5,
+        "image": "img/MezzoMix.png",
+        "rating": 4.6,
+        "preparation": "1 min",
+        "description": "Cola + orange blend."
+      },
+      {
+        "name": "Still Water 0.5L",
+        "price": 1.2,
+        "image": "img/StillWater.png",
+        "rating": 4.5,
+        "preparation": "1 min",
+        "description": "Cold still water."
+      },
+      {
+        "name": "Sparkling Water 0.5L",
+        "price": 1.4,
+        "image": "img/SparklingWater.png",
+        "rating": 4.5,
+        "preparation": "1 min",
+        "description": "Cold sparkling water."
+      },
+      {
+        "name": "Orange Juice",
+        "price": 2.8,
+        "image": "img/OrangeJuice.png",
+        "rating": 4.7,
+        "preparation": "2 mins",
+        "description": "Fresh orange juice."
+      },
+      {
+        "name": "Apple Juice",
+        "price": 2.8,
+        "image": "img/AppleJuice.png",
+        "rating": 4.7,
+        "preparation": "2 mins",
+        "description": "Refreshing apple juice."
+      }
+    ],
+    "Energy": [
+      {
+        "name": "Red Bull",
+        "price": 3.5,
+        "image": "img/RedBull.png",
+        "rating": 4.8,
+        "preparation": "1 min",
+        "description": "Classic energy drink."
+      },
+      {
+        "name": "Red Bull Sugarfree",
+        "price": 3.5,
+        "image": "img/RedBullSugarfree.png",
+        "rating": 4.6,
+        "preparation": "1 min",
+        "description": "Sugar-free energy drink."
+      }
+    ],
+    "Coffee & Tea": [
+      {
+        "name": "Espresso",
+        "price": 1.5,
+        "image": "img/Espresso.png",
+        "rating": 4.9,
+        "preparation": "3 mins",
+        "description": "Classic single-shot espresso."
+      },
+      {
+        "name": "Espresso Macchiato",
+        "price": 1.7,
+        "image": "img/EspressoMacchiato.png",
+        "rating": 4.8,
+        "preparation": "3 mins",
+        "description": "Espresso with a touch of milk foam."
+      },
+      {
+        "name": "Cappuccino",
+        "price": 2.2,
+        "image": "img/Cappuccino.png",
+        "rating": 4.9,
+        "preparation": "5 mins",
+        "description": "Espresso with steamed milk and foam."
+      },
+      {
+        "name": "Latte Macchiato",
+        "price": 2.6,
+        "image": "img/LatteMacchiato.png",
+        "rating": 4.8,
+        "preparation": "5 mins",
+        "description": "Steamed milk with espresso layered on top."
+      },
+      {
+        "name": "Black Tea",
+        "price": 1.5,
+        "image": "img/BlackTea.png",
+        "rating": 4.6,
+        "preparation": "4 mins",
+        "description": "Classic black tea."
+      },
+      {
+        "name": "Green Tea",
+        "price": 1.5,
+        "image": "img/GreenTea.png",
+        "rating": 4.6,
+        "preparation": "4 mins",
+        "description": "Light and refreshing green tea."
+      },
+      {
+        "name": "Chamomile Tea",
+        "price": 1.5,
+        "image": "img/ChamomileTea.png",
+        "rating": 4.6,
+        "preparation": "4 mins",
+        "description": "Herbal chamomile tea."
+      },
+      {
+        "name": "Mint Tea",
+        "price": 1.5,
+        "image": "img/MintTea.png",
+        "rating": 4.6,
+        "preparation": "4 mins",
+        "description": "Fresh mint herbal tea."
+      }
+    ]
+  }
+}
