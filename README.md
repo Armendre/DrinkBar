@@ -39,3 +39,7 @@ The website focuses on a clean UI, dark modern design, and smooth user interacti
 - **Font Awesome**
 
 > This is a **frontend-only project**. No backend or database is implemented.
+🌐 Live Demo
+
+You can view the project live here:  
+👉 https://drink-bar-mu.vercel.app/
