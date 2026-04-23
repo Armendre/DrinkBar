@@ -38,6 +38,12 @@ The website focuses on a clean UI, dark modern design, and smooth user interacti
 - **Google Fonts**
 - **Font Awesome**
 
+## 🔄 Update
+
+- Improved mobile & tablet responsiveness  
+- Optimized layout and spacing  
+- Better product grid and UI alignment  
+
 > This is a **frontend-only project**. No backend or database is implemented.
 🌐 Live Demo
 
